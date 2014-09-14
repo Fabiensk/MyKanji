@@ -1,0 +1,10 @@
+{
+  "name": "mykanji",
+  "title": "MyKanji",
+  "id": "jid1-PIdIUUgOFDLY3Q",
+  "description": "List the kanji you don't know yet in the text selection.",
+  "author": "",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "unpack": "true"
+}
