@@ -3,19 +3,20 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
   <head>
-    <title>Load file</title>
+    <title></title>
     <style media="all" type="text/css">
       textarea { width: 100% }
+      h1 { font-size: 1.5em; }
     </style>
 
     <link type="text/css" href="css/overcast/jquery-ui-1.8.20.custom.css" rel="Stylesheet" />
   </head>
   
   <body>
-    <h1>Put a text containing the kanji you know</h1> 
-    <div>For example the text export of a Anki deck with the kanji you know.</div>
+    <h1 data-l10n-id="config_title">Put a text containing the kanjis you know</h1> 
+    <div data-l10n-id="config_desc">For example the text export of a Anki deck with the kanjis you know.</div>
     <div style="padding: 2em; height: 100%"><textarea id="textarea" rows="15"></textarea></div>
-    <div><input type="submit" id="btn-update" value="Update"></div>
+    <div><button id="btn-update" data-l10n-id="config_submit">Update</button></div>
   </body>
   
 </html>
