@@ -3,20 +3,26 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
   <head>
-    <title></title>
-    <style media="all" type="text/css">
-      #result { font-size: 1.8em; }
-      h1 { font-size: 1.5em; }
-      table { border:1px solid black; }
-      td { border:1px solid black; padding: 0.2em}
-    </style>
-
-    <link type="text/css" href="css/overcast/jquery-ui-1.8.20.custom.css" rel="Stylesheet" />
+    <title data-l10n-id="result_title"></title>
+    <link rel="stylesheet" media="all" type="text/css" href="result.css"></style>
+    <!--
+        <script type="text/javascript" src="result.js"></script>
+-->
   </head>
   
   <body>
     <h1 data-l10n-id="result_title">Result search</h1> 
-    <div id="result"></div>
+    <div>
+      <table>
+        <thead><tr>
+        <td>Kanji</td>
+        <td data-l10n-id="result_level">Level</td>
+        <td data-l10n-id="result_count">Count</td>
+        <td data-l10n-id="result_linkfr">Links</td>
+        </tr></thead>
+        <tbody id="result"></tbody>
+      </table>
+    </div>
   </body>
   
 </html>
