@@ -4,8 +4,8 @@
     "id": "jid1-PIdIUUgOFDLY3Q",
     "description": "List the kanji you don't know yet in the text selection.",
     "author": "",
-    "license": "MPL 2.0",
-    "version": "0.5.1",
+    "license": "GPLv3",
+    "version": "0.5.2",
     "unpack": "true",
     "permissions": {"private-browsing": true}
 }
