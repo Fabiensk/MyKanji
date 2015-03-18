@@ -41,5 +41,4 @@ self.port.on('message', function(param) {
         param[cnt].push(links);
         add_tr(tbody, param[cnt])
     }
-    result.appendChild(table);
 });
