@@ -36,8 +36,8 @@ self.port.on('message', function(param) {
     param.sort(function(a, b) { return a[1]-b[1];})
     for(cnt in param) {
         var links = new Array();
+        links.push(["http://jisho.org/search/"+param[cnt][0], "En"]);
         links.push(["http://kanji.free.fr/kanji.php?utf8="+param[cnt][0], "Fr"]);
-        links.push(["http://jisho.org/kanji/details/"+param[cnt][0], "En"]);
         param[cnt].push(links);
         add_tr(tbody, param[cnt])
     }
